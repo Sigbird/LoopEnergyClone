@@ -43,4 +43,9 @@ public class ProgressManager : MonoBehaviour
     {
         PlayerPrefs.DeleteAll();
     }
+
+    public void OnExitButtonClicked()
+    {
+        Application.Quit();
+    }
 }
